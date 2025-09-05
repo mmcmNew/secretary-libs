@@ -1,5 +1,7 @@
 # Changelog
 
+* fix: npm error Could not resolve dependency: npm error peer @hello-pangea/dnd@"^16.0.0" from @player_mmcm/secretary-libs@0.1.3 (e2cd3bd)
+
 * fix: TypeError: Cannot read properties of null (reading 'useState') (992038a)
 
 * fix: Cannot read properties of null (reading 'useState') bug (9d9ebb9)
