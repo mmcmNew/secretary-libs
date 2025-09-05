@@ -1,5 +1,7 @@
 # Changelog
 
+* fix: TypeError: Cannot read properties of null (reading 'useState') (992038a)
+
 * fix: Cannot read properties of null (reading 'useState') bug (9d9ebb9)
 
 * fix: Add ColorPicker in release (c375521)
