@@ -21,7 +21,7 @@
     "build": "vite build",
     "lint": "eslint . --fix",
     "preview": "vite preview",
-    "release": "npm run build && release-it",
+    "release": "npm run build && release-it -- --npm.access=public",
     "update-deps": "ncu -u",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
