@@ -1,5 +1,7 @@
 # Changelog
 
+* fix: Cannot read properties of null (reading 'useState') bug (9d9ebb9)
+
 * fix: Add ColorPicker in release (c375521)
 
 # 0.1.0 (2025-09-05)
