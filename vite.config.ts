@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import dts from 'vite-plugin-dts';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
@@ -22,17 +21,25 @@ export default defineConfig({
       fileName: (format) => `secretary-libs.${format}.js`,
     },
     rollupOptions: {
-      external: ['react', 'react-dom', 'react/jsx-runtime', '@mui/material', '@mui/icons-material', '@emotion/react', '@emotion/styled', '@hello-pangea/dnd'],
+      external: [
+        'react',
+        'react-dom',
+        'react/jsx-runtime',
+        /^@mui\/material.*/,          // всё, что начинается с @mui/material
+        /^@mui\/icons-material.*/,    // всё, что начинается с @mui/icons-material
+        /^@emotion\/react.*/,         // всё из @emotion/react
+        /^@emotion\/styled.*/,        // всё из @emotion/styled
+        '@hello-pangea/dnd',
+      ],
       output: {
         globals: {
           react: 'React',
           'react-dom': 'ReactDOM',
-          'react/jsx-runtime': 'jsxRuntime',
           '@mui/material': 'MaterialUI',
-          '@hello-pangea/dnd': 'dnd',
           '@mui/icons-material': 'MuiIconsMaterial',
           '@emotion/react': 'emotionReact',
           '@emotion/styled': 'emotionStyled',
+          '@hello-pangea/dnd': 'dnd',
         },
       },
     },
