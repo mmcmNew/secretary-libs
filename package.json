@@ -1,7 +1,7 @@
 {
   "name": "@player_mmcm/secretary-libs",
   "private": false,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "main": "./dist/secretary-libs.umd.js",
   "module": "./dist/secretary-libs.es.js",
