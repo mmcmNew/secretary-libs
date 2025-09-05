@@ -1,5 +1,7 @@
 # Changelog
 
+* fix: Add ColorPicker in release (c375521)
+
 # 0.1.0 (2025-09-05)
 
 
