@@ -1,5 +1,7 @@
 # Changelog
 
+* Fix: (c9be5f6)
+
 * fix: peerDependencies (1b83f4c)
 
 * fix: dependencies (3768527)
