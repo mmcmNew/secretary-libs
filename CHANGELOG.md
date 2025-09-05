@@ -1,5 +1,8 @@
 # Changelog
 
+* fix: (005baa3)
+* fix: ColorPicker rework (0e7dcf8)
+
 * Fix: (c9be5f6)
 
 * fix: peerDependencies (1b83f4c)
