@@ -22,11 +22,12 @@ export default defineConfig({
       fileName: (format) => `secretary-libs.${format}.js`,
     },
     rollupOptions: {
-      external: ['react', 'react-dom', '@mui/material', '@mui/icons-material', '@emotion/react', '@emotion/styled', '@hello-pangea/dnd'],
+      external: ['react', 'react-dom', 'react/jsx-runtime', '@mui/material', '@mui/icons-material', '@emotion/react', '@emotion/styled', '@hello-pangea/dnd'],
       output: {
         globals: {
           react: 'React',
           'react-dom': 'ReactDOM',
+          'react/jsx-runtime': 'jsxRuntime',
           '@mui/material': 'MaterialUI',
           '@hello-pangea/dnd': 'dnd',
           '@mui/icons-material': 'MuiIconsMaterial',
