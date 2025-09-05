@@ -30,6 +30,8 @@ export default defineConfig({
           '@mui/material': 'MaterialUI',
           '@hello-pangea/dnd': 'dnd',
           '@mui/icons-material': 'MuiIconsMaterial',
+          '@emotion/react': 'emotionReact',
+          '@emotion/styled': 'emotionStyled',
         },
       },
     },
