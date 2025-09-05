@@ -1,5 +1,7 @@
 # Changelog
 
+* fix: peerDependencies (1b83f4c)
+
 * fix: dependencies (3768527)
 
 * fix: npm error Could not resolve dependency: npm error peer @hello-pangea/dnd@"^16.0.0" from @player_mmcm/secretary-libs@0.1.3 (e2cd3bd)
